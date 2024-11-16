@@ -1,0 +1,21 @@
+# Exclude Airflow logs directory
+logs/
+
+# Exclude Airflow plugins directory
+plugins/
+
+# Exclude Airflow config files
+config/
+
+# Ignore system-specific files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment
+venv/
+.env/
+
+# Ignore Docker artifacts
+*.env
+*.log
+*.pid
